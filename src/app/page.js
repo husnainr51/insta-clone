@@ -1,5 +1,10 @@
+import Feed from "@/components/Feed";
 import React from "react";
 
 export default function Home() {
-  return <div className="text-red-300">Home</div>;
+  return (
+    <div className="">
+      <Feed />
+    </div>
+  );
 }
